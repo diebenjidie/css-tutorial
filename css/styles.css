@@ -1,0 +1,30 @@
+section{
+	width:900px;
+	margin: 0 auto;
+}
+
+section > img {
+	max-width:100%;
+}
+
+div, h1, h3, p{
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.categories{
+	color: #0D9BCF;
+}
+
+.categories > a {
+	text-transform:uppercase;
+	font-family: sans-serif;
+	font-weight:bold;
+	color: #0D9BCF;
+
+}
+
+
+
+
+/*div is a block element and span is an inline element*/
