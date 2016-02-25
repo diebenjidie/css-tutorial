@@ -1,3 +1,15 @@
+html {
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: "fader";
+	font-style: normal;
+	font-weight: normal;
+	src: url("assets/fonts/WF-026510-009147-001253-3db37e90290cc07b3aba50bdd2a10396.woff");
+
+}
+
 section{
 	width:900px;
 	margin: 0 auto;
@@ -10,17 +22,32 @@ section > img {
 div, h1, h3, p{
 	max-width: 75%;
 	margin: 0 auto;
+	margin: green;
 }
 
 .categories{
 	color: #0D9BCF;
+	max-width: 640px;
+	min-width: 576px;
+
 }
 
 .categories > a {
 	text-transform:uppercase;
-	font-family: sans-serif;
-	font-weight:bold;
+	font-family: "fader";
+	font-size: 1rem;
 	color: #0D9BCF;
+	
+}
+
+#title {
+	padding-top:28px;
+	font-family:"fader";
+	color: #222;
+	font-size: 56px;
+	line-height: 1.15em;
+	max-width: 640px;
+	min-width: 576px;
 
 }
 
